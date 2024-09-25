@@ -4,61 +4,75 @@ body {
     padding: 0;
     background-color: #f2f2f2;
 }
+
 .header {
     background: linear-gradient(to right, #0457dd, #720cb6); 
     color: white;
     padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
+
 .header img {
-    width: 300px;
+    width: 100%;
+    max-width: 300px; 
     height: auto;
-    margin-right: 10px;
 }
+
 .container {
     display: flex;
+    flex-direction: column; 
     padding: 20px;
     background-color: white;
 }
+
 .image-placeholder {
-    width: 400px;
-    height: auto;
+    width: 100%;
+    max-width: 400px; 
+    min-width: 350px; 
     background-color: #0074bc6f;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin: 0 auto; 
 }
+
 .image-placeholder img {
-    width: 300px;
+    width: 100%; 
+    max-width: 350px; 
     height: auto;
     border-radius: 10px;
 }
+
 .text-content {
-    margin-left: 20px;
+    margin: 20px 0; 
+    padding: 0 10px; 
 }
+
 .text-content h1 {
     margin: 0;
     font-size: 24px;
     font-family: Georgia, serif;
 }
+
 .text-content .date {
     color: rgb(0, 0, 0);
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 20px;
 }
+
 .text-content p {
     margin: 10px 0;
     line-height: 1.6;
     color: #333;
-    font-family: Helvetica, Arial, sans-serif;
 }
 
 .specifications-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; 
     margin-top: 30px;
 }
 
@@ -66,8 +80,7 @@ body {
     background-color: #9fcefa;
     padding: 15px;
     border-radius: 10px;
-    flex: 1;
-    margin: 0 10px;
+    margin: 10px 0; 
 }
 
 .specifications h2 {
@@ -88,4 +101,24 @@ body {
 .more-info a {
     color: #0457dd;
     text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; 
+    }
+
+    .text-content {
+        margin-left: 20px; 
+    }
+
+    .specifications-container {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+
+    .specifications {
+        flex: 1;
+        margin: 0 10px;
+    }
 }
