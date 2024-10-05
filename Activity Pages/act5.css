@@ -1,0 +1,40 @@
+.accordion-button {
+    border: 3px solid black;
+    border-radius: 20px;
+    background: linear-gradient(to right, #0033dc, #17e9ae); 
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    background: linear-gradient(to right, #0033dc, #17e9ae);
+    color: white;
+}
+
+.accordion-button:hover {
+    background: linear-gradient(to right, #be8903, #ff5d5d); 
+    color: white;
+}
+
+.card-title {
+    margin-top: 15px;  
+    margin-bottom: 10px; 
+}
+
+.card-text {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.card-body p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.more-info p {
+    text-align: center;
+    margin-top: 40px;
+}
