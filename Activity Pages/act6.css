@@ -39,7 +39,7 @@
     background: linear-gradient(to top left, #dc3101, #ffdbb9);
     background-size: 200% 100%;
     animation: gradientMove 5s ease-in-out infinite;
-    height: 200px;
+    height: 100px;
 }
 
 body.dark-mode {
