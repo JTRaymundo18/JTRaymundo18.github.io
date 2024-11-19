@@ -1,0 +1,41 @@
+/*!This style is important, do not override!*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'StrangeTales';
+    src: url('fontStyle/Strange Tales.ttf') format('truetype'); 
+}
+
+.custom-font {
+    font-family: 'StrangeTales', cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.animated-bg {
+    background: linear-gradient(to bottom right,#7cf6ff, #0057c9);
+    background-size: 200% 100%;
+    animation: gradientMove 3s ease-in-out infinite;
+}
+
+.animated-background {
+    background: linear-gradient(to bottom, #000226, #003d6f);
+    background-size: 200% 100%;
+    animation: gradientMove 10s linear infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 0%; 
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
