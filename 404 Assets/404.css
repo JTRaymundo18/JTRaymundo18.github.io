@@ -6,59 +6,6 @@ body {
     background: linear-gradient(to top right, rgb(0, 37, 79), rgb(0, 0, 162));
 }
 
-.glitch {
-    width: 440px;
-    height: 158px; 
-    margin: 20px, 0px, 20px, 0px;
-    background: url(images/404-Glitch0.png) center center no-repeat; 
-    background-size: cover;
-    animation: glitch 3.5s infinite steps(1);
-}
-
-
-@keyframes glitch {
-
-    0%, 100% {
-        background: url(images/404-Glitch0.png);
-        background-size: cover;
-    }
-
-    87.5% {
-        background: url(images/404-Glitch1.png);
-        background-size: cover;
-        opacity: 1;
-    }
-
-    90% {
-        background: url(images/404-Glitch2.png);
-        background-size: cover;
-        opacity: 0;
-    }
-
-    92.5% {
-        background: url(images/404-Glitch3.png);
-        background-size: cover;
-        opacity: 1;
-    }
-
-    95% {
-        background: url(images/404-Glitch4.png);
-        background-size: cover;
-        opacity: 0;
-    }
-
-    97.5% {
-        background: url(images/404-Glitch5.png);
-        background-size: cover;
-        opacity: 1;
-    }
-}
-
-@font-face {
-    font-family: 'GameOver';
-    src: url('fontStyle/game_over.ttf') format('truetype'); 
-}
-
 .custom-font {
     font-family: 'GameOver', monospace;
     text-align: center;
