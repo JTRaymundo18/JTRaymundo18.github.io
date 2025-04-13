@@ -1,5 +1,5 @@
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article1.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">The Lethal Company Phenomenon: How a $10 Indie Horror Game Took Over
@@ -16,7 +16,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article2.png" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Overwatch 2 PvE Mode Disaster: What Went Wrong with Blizzard's Promise
@@ -32,7 +32,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article3.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Sons of the Forest: Survival Game or Cannibal Horror Masterpiece?</h5>
@@ -48,7 +48,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article4.png" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">FNAF: Security Breach – Hype, Bugs, and a Divided Fanbase</h5>
@@ -63,7 +63,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article5.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">The Day Rockstar Got Hacked: GTA VI Leak Sends Fans Into a Frenzy</h5>
@@ -78,7 +78,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article6.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">The Day Starfield Divided the Internet: Innovation or Missed Opportunity?
@@ -95,7 +95,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article7.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Cyberpunk 2077's 2020 Launch Disaster: A Cautionary Tale</h5>
@@ -111,7 +111,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article8.png" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Genshin Impact's 2024 Natlan Region Trailer Sparks Cultural Debate
@@ -129,7 +129,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article9.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Among Us: How a 2018 Game Became a 2020 Pandemic Phenomenon</h5>
@@ -146,7 +146,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article10.png" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">The Last of Us Part II: A Bold, Divisive Sequel</h5>
@@ -161,7 +161,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article11.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Ghost of Tsushima: A Samurai Epic with Controversies Over Cultural
@@ -177,7 +177,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/article12.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Elden Ring: A Masterpiece That Sparked Controversy Over Difficulty

@@ -1,5 +1,5 @@
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/horror1.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Phasmophobia</h5>
@@ -14,7 +14,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/horror2.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Little Nightmares II</h5>
@@ -29,7 +29,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/horror3.png" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Devour</h5>
@@ -44,7 +44,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/horror4.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Silent Hill 2</h5>
@@ -59,7 +59,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/horror5.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">The Mortuary Assistant</h5>
@@ -74,7 +74,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/horror6.png" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Five Nights at Freddy's: Security Breach</h5>

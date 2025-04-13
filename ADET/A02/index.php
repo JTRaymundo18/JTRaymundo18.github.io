@@ -69,16 +69,22 @@ if (isset($_GET['page'])) {
 </head>
 
 <style>
-
     .animated-background {
         background: linear-gradient(to top, rgb(241, 194, 142), rgb(253, 235, 192));
         animation: gradientMove 4s linear infinite;
     }
 
     .card {
-        border: 5px solid
-            <?php echo $color ?>
-        ;
+        border: 5px solid <?php echo $color ?>;
+    }
+
+    .cardview {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .cardview:hover {
+        transform: scale(1.03);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
     }
 
     @font-face {
@@ -113,7 +119,6 @@ if (isset($_GET['page'])) {
     .card-title {
         font-weight: bold;
     }
-
 </style>
 
 <body data-bs-theme="dark">

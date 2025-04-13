@@ -1,5 +1,5 @@
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/story1.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Karma: The Dark World</h5>
@@ -14,7 +14,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/story2.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Figment 2: Creed Valley</h5>
@@ -29,7 +29,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/story3.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">The Walking Dead: The Telltale Definitive Series</h5>
@@ -44,7 +44,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/story4.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Minecraft Story Mode</h5>
@@ -59,7 +59,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/story5.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">The Last of Us Part 1</h5>
@@ -74,7 +74,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/story6.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Heavy Rain</h5>

@@ -1,5 +1,5 @@
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/fps1.png" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Overwatch 2</h5>
@@ -14,7 +14,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/fps2.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Valorant</h5>
@@ -29,7 +29,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/fps3.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Rainbow Six Siege</h5>
@@ -43,7 +43,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/fps4.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Call of Duty: Warzone</h5>
@@ -58,7 +58,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/fps5.png" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Half-Life 2</h5>
@@ -73,7 +73,7 @@
 </div>
 
 <div class="col">
-    <div class="card h-100 rounded-5">
+    <div class="cardview  card h-100 rounded-5">
         <img src="shared/img/fps6.jpg" class="card-img-top p-3 rounded-5">
         <div class="card-body">
             <h5 class="card-title text-center">Escape from Tarkov</h5>
