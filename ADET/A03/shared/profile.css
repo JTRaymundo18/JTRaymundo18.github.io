@@ -1,0 +1,66 @@
+.subMini {
+    border: solid 3px #b469ff;
+    height: 180px;
+    background-color: rgba(225, 29, 255, 0.17);
+    color: #cfd9e0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mini {
+    border: solid 3px #39ff14;
+    height: 240px;
+    background-color: rgba(18, 118, 0, 0.208);
+    color: #cfd9e0;
+}
+
+.subDisplay {
+    border: solid 3px #ffe100;
+    height: 360px;
+    background-color: rgba(251, 255, 0, 0.1);
+    color: #cfd9e0;
+}
+
+.mainDisplay {
+    border: solid 3px #4676fa;
+    height: 480px;
+    background-color: rgba(29, 138, 255, 0.17);
+    color: #cfd9e0;
+}
+
+.subMini:hover {
+    box-shadow: 0 0 10px #b469ff, 0 0 30px #b469ff;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+.mini:hover {
+    box-shadow: 0 0 10px #abf86c, 0 0 30px #abf86c;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+.subDisplay:hover {
+    box-shadow: 0 0 10px #ffe100, 0 0 30px #ffe100;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+.mainDisplay:hover {
+    box-shadow: 0 0 10px #4676fa, 0 0 30px #4676fa;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+ 
+ /* @media only screen and (max-width: 600px) {...} */
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ /* @media only screen and (min-width: 600px) {...} */
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ /* @media only screen and (min-width: 768px) {...} */
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ /* @media only screen and (min-width: 992px) {...} */
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ /* @media only screen and (min-width: 1200px) {...}  */

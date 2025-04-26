@@ -148,9 +148,6 @@ if (isset($_GET['page'])) {
 
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     </div>

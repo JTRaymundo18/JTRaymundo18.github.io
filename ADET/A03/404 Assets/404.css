@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top right, rgb(0, 37, 79), rgb(0, 0, 162));
+}
+
+.custom-font {
+    font-family: 'GameOver', monospace;
+    text-align: center;
+    color: aqua;
+    text-shadow: 2px 2px 4px rgba(1, 110, 132, 0.7);
+}
