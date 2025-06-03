@@ -1,61 +1,61 @@
 var categories = [];
-    var products = [];
-    var total = 0;
+var products = [];
+var total = 0;
 
-    const getAllCategories = async () => {
-      fetch(
-        'http://localhost/JTRaymundo18.github.io/ADET/A06-BE/categories.php'
-      )
-        .then(response => response.json())
-        .then(data => {
-          categories = data;
-          loadCategories();
-        });
-    }
+const getAllCategories = async () => {
+  fetch(
+    'http://localhost/JTRaymundo18.github.io/ADET/A06-BE/categories.php'
+  )
+    .then(response => response.json())
+    .then(data => {
+      categories = data;
+      loadCategories();
+    });
+}
 
-    const getAllProducts = async (categoryID) => {
-      const categoryData = {
-        categoryID: categoryID
-      };
+const getAllProducts = async (categoryID) => {
+  const categoryData = {
+    categoryID: categoryID
+  };
 
-      fetch(
-        'http://localhost/JTRaymundo18.github.io/ADET/A06-BE/products.php', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(categoryData)
-      })
-        .then(response => response.json())
-        .then(data => {
-          products = data;
-          loadProducts();
-        });
-    }
+  fetch(
+    'http://localhost/JTRaymundo18.github.io/ADET/A06-BE/products.php', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(categoryData)
+  })
+    .then(response => response.json())
+    .then(data => {
+      products = data;
+      loadProducts();
+    });
+}
 
-    function loadCategories() {
-      var categoriesContainer = document.getElementById("categories");
+function loadCategories() {
+  var categoriesContainer = document.getElementById("categories");
 
-      categories.forEach((category) => {
+  categories.forEach((category) => {
 
-        categoriesContainer.innerHTML += `<div onclick="getAllProducts('` + category.categoryID + `')" class="card mx-1 custom-button p-3 text-center" style="border: solid 3px black; background-color: rgb(189, 255, 226);">
+    categoriesContainer.innerHTML += `<div onclick="getAllProducts('` + category.categoryID + `')" class="card mx-1 custom-button p-3 text-center" style="border: solid 3px black; background-color: rgb(189, 255, 226);">
           <h5>`+ category.categoryName + `</h5>
         </div>
       `;
 
-      });
-    }
+  });
+}
 
-    function loadProducts(categoryID) {
-      var maincontainer = document.getElementById("menuContainer");
-      maincontainer.innerHTML = "";
+function loadProducts(categoryID) {
+  var maincontainer = document.getElementById("menuContainer");
+  maincontainer.innerHTML = "";
 
-      products.forEach(product => {
-        
-        var checkAvailability = product.isAvailable;
+  products.forEach(product => {
 
-        if (checkAvailability == 'Yes') {
-                menuContainer.innerHTML += `
+    var checkAvailability = product.isAvailable;
+
+    if (checkAvailability == 'Yes') {
+      menuContainer.innerHTML += `
         <div class="col my-3">
         <div class="card my-3 mx-1 h-100" style="border: solid 3px black">
           <img src="img/`+ product.productImage + `" class="card-img-top p-3 rounded-5">
@@ -70,9 +70,9 @@ var categories = [];
       </div>
           `;
 
-            } else {
+    } else {
 
-                menuContainer.innerHTML += `
+      menuContainer.innerHTML += `
                 <div class="col my-3">
                 <div class="card my-3 mx-1 h-100" style="border: solid 3px black; background-color: rgba(255, 255, 255, 0.5);">
                   <img src="img/`+ product.productImage + `" class="card-img-top p-3 rounded-5">
@@ -86,6 +86,6 @@ var categories = [];
                 </div>
               </div>
                   `;
-            }
-      });
     }
+  });
+}
